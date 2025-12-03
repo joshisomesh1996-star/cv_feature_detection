@@ -1,0 +1,81 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================
+# VS Code
+# ============================
+.vscode/
+*.code-workspace
+
+# ============================
+# OS files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# OpenCV / Matplotlib outputs
+# ============================
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+
+# KEEP your original images:
+!resources/*.png
+!resources/*.jpg
+
+# Generated comparison images
+comparison_grid.png
+performance.png
+sift_matches.png
+orb_matches.png
+
+# ============================
+# PDF Reports
+# ============================
+*.pdf
+!docs/*.pdf
+
+# ============================
+# Build / cache folders
+# ============================
+build/
+dist/
+*.egg-info/
+
+# ============================
+# Python project files
+# ============================
+.Python
+*.sqlite3
+
+# ============================
+# Ignore reports and temporary files
+# ============================
+*.zip
+*.tar.gz
+*.rar
+reports/
+output/
