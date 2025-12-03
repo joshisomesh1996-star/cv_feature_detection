@@ -33,24 +33,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# ============================
-# OpenCV / Matplotlib outputs
-# ============================
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.tif
-
-# KEEP your original images:
-!resources/*.png
-!resources/*.jpg
-
-# Generated comparison images
-comparison_grid.png
-performance.png
-sift_matches.png
-orb_matches.png
 
 # ============================
 # PDF Reports
